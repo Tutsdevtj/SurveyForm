@@ -1,7 +1,8 @@
 # SurveyForm
 Survey Form created for a study challenge made by Code Camp.
 
-![image](https://github.com/user-attachments/assets/23ab23c3-4205-4741-ac1d-e81fdd601712)
+![image](https://github.com/user-attachments/assets/4c234796-4d4b-49a6-adc1-fe21907b119d)
+
 
 
 
