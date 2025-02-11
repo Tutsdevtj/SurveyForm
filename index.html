@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This is a Survey Form</p>
+
+
+        <form id="survey-form">
+            <fieldset class="personal-data">
+                <label id="name-label">Name: <input type="text" id="name" placeholder="Enter your name"
+                        required></label>
+                <label id="email-label">E-mail: <input type="email" id="email" placeholder="Enter your email" required>
+                </label>
+                <label id="number-label">Age (optional): <input type="number" id="number" min="14" max="120"
+                        placeholder="Age">
+                </label>
+            </fieldset>
+            <fieldset>
+                Which option best describes your current role?
+                <select id="dropdown" class="role">
+                    <option>Select current role</option>
+                    <option>Student</option>
+                    <option>Full time job</option>
+                </select>
+            </fieldset>
+            <fieldset id="radio" class="role">
+                Would you recommend freeCodeCamp to a friend?
+                <label><input type="radio" name="referrer" value="radio2" checked>Definitely</label>
+                <label><input type="radio" name="referrer" value="radio2">Maybe</label>
+                <label> <input type="radio" name="referrer" value="radio2">Not sure</label>
+            </fieldset>
+
+            <fieldset class="role">
+
+                Which option best describes your current role?
+                <label><input type="checkbox" value="1">Back-end Projects</label>
+                <label><input type="checkbox" value="2">Front-end Projects</label>
+
+                <label><input type="checkbox" value="3">Data Visualization</label>
+
+                <label><input type="checkbox" value="4">Challenges</label>
+                <label><input type="checkbox" value="5">Open Source Community</label>
+
+                <label><input type="checkbox" value="6">Videos</label>
+
+
+            </fieldset>
+
+            <fieldset class="role">
+                <p>Any comments or suggestions?</p>
+                <textarea placeholder="Enter you comment here..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <input type="submit" value="Submit" id="submit">
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+
+
+
+</html>
